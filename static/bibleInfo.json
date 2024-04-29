@@ -1,0 +1,464 @@
+[
+    {
+        "shortName": "gn",
+        "lection": "创世记",
+        "chapter": 50,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ex",
+        "lection": "出埃及记",
+        "chapter": 40,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "lv",
+        "lection": "利未记",
+        "chapter": 27,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "nm",
+        "lection": "民数记",
+        "chapter": 36,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "dt",
+        "lection": "申命记",
+        "chapter": 34,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "js",
+        "lection": "约书亚记",
+        "chapter": 24,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "jud",
+        "lection": "士师记",
+        "chapter": 21,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "rt",
+        "lection": "路得记",
+        "chapter": 4,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "1sm",
+        "lection": "撒母耳记上",
+        "chapter": 31,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "2sm",
+        "lection": "撒母耳记下",
+        "chapter": 24,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "1kgs",
+        "lection": "列王纪上",
+        "chapter": 22,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "2kgs",
+        "lection": "列王纪下",
+        "chapter": 25,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "1ch",
+        "lection": "历代志上",
+        "chapter": 29,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "2ch",
+        "lection": "历代志下",
+        "chapter": 36,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ezr",
+        "lection": "以斯拉记",
+        "chapter": 10,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ne",
+        "lection": "尼西米记",
+        "chapter": 13,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "et",
+        "lection": "以斯帖记",
+        "chapter": 10,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "job",
+        "lection": "约伯记",
+        "chapter": 42,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ps",
+        "lection": "诗篇",
+        "chapter": 150,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "prv",
+        "lection": "箴言",
+        "chapter": 31,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ec",
+        "lection": "传道书",
+        "chapter": 12,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "so",
+        "lection": "雅歌",
+        "chapter": 8,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "is",
+        "lection": "以赛亚书",
+        "chapter": 66,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "jr",
+        "lection": "耶利米书",
+        "chapter": 52,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "lm",
+        "lection": "耶利米哀歌",
+        "chapter": 5,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ez",
+        "lection": "以西结书",
+        "chapter": 48,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "dn",
+        "lection": "但以理书",
+        "chapter": 12,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ho",
+        "lection": "何西阿书",
+        "chapter": 14,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "jl",
+        "lection": "约珥书",
+        "chapter": 3,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "am",
+        "lection": "阿摩司书",
+        "chapter": 9,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ob",
+        "lection": "俄巴底亚书",
+        "chapter": 1,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "jn",
+        "lection": "约拿书",
+        "chapter": 4,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "mi",
+        "lection": "弥迦书",
+        "chapter": 7,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "na",
+        "lection": "那鸿书",
+        "chapter": 3,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "hk",
+        "lection": "哈巴谷书",
+        "chapter": 3,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "zp",
+        "lection": "西番雅书",
+        "chapter": 3,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "hg",
+        "lection": "哈该书",
+        "chapter": 2,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "zc",
+        "lection": "撒迦利亚书",
+        "chapter": 14,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ml",
+        "lection": "玛拉基书",
+        "chapter": 4,
+        "type": "old",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "mt",
+        "lection": "马太福音",
+        "chapter": 28,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "mk",
+        "lection": "马可福音",
+        "chapter": 16,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "lk",
+        "lection": "路加福音",
+        "chapter": 24,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "jo",
+        "lection": "约翰福音",
+        "chapter": 21,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "act",
+        "lection": "使徒行传",
+        "chapter": 28,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "rm",
+        "lection": "罗马书",
+        "chapter": 16,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "1co",
+        "lection": "哥林多前书",
+        "chapter": 16,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "2co",
+        "lection": "哥林多后书",
+        "chapter": 13,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "gl",
+        "lection": "加拉太书",
+        "chapter": 6,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "eph",
+        "lection": "以弗所书",
+        "chapter": 6,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "ph",
+        "lection": "腓利比书",
+        "chapter": 4,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "cl",
+        "lection": "歌罗西书",
+        "chapter": 4,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "1ts",
+        "lection": "帖撒罗尼迦前书",
+        "chapter": 5,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "2ts",
+        "lection": "帖撒罗尼迦后书",
+        "chapter": 3,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "1tm",
+        "lection": "提摩太前书",
+        "chapter": 6,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "2tm",
+        "lection": "提摩太后书",
+        "chapter": 4,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "tt",
+        "lection": "提多书",
+        "chapter": 3,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "phm",
+        "lection": "腓利门书",
+        "chapter": 1,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "hb",
+        "lection": "希伯来书",
+        "chapter": 13,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "jm",
+        "lection": "雅各书",
+        "chapter": 5,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "1pe",
+        "lection": "彼得前书",
+        "chapter": 5,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "2pe",
+        "lection": "彼得后书",
+        "chapter": 3,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "1jo",
+        "lection": "约翰一书",
+        "chapter": 5,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "2jo",
+        "lection": "约翰二书",
+        "chapter": 1,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "3jo",
+        "lection": "约翰三书",
+        "chapter": 1,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "jd",
+        "lection": "犹大书",
+        "chapter": 1,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    },
+    {
+        "shortName": "re",
+        "lection": "启示录",
+        "chapter": 22,
+        "type": "new",
+        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg"
+    }
+]
