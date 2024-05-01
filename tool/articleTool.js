@@ -19,11 +19,10 @@ const article = {
     isOver: false,
     // 初始化文章信息
     async initArticleSystem() {
-        this.isOver = false
         try {
-            this.ArticleInfo = JSON.parse(await fs.readFile(staticArticlePath) || '[]')
-            this.lastIndex = JSON.parse(await fs.readFile(lastIndexPath) || '{}')
-            this.computeKey = JSON.parse(await fs.readFile(computeKeyPath) || '{}')
+            this.ArticleInfo = JSON.parse(await fs.readFile(staticArticlePath))
+            this.lastIndex = JSON.parse(await fs.readFile(lastIndexPath))
+            this.computeKey = JSON.parse(await fs.readFile(computeKeyPath))
             this.upId = Number(await fs.readFile(upIndexPath))
             const dirList = (await fs.readdir(baseArticlePath)).map(item => path.join(baseArticlePath, item))
             const ArticleName = dirList.map(item => getFileNameWithoutExtension(item))
@@ -40,7 +39,7 @@ const article = {
             }
             this.ArticleList = temp
             this.isOver = true
-            console.log(this.computeKey);
+            console.log('完成用户初始化加载');
             return { code: true, msg: '完成用户初始化加载' }
         } catch (error) {
             console.log(error);
@@ -56,15 +55,17 @@ const article = {
         const beforTime = this.lastIndex.now?.day
         // 如果需要更新
         if (date.decideTimeOfNextDay(nowTime, beforTime)) {
-            this.isOver = false
             console.log('--存在章节更新，准备更新！--');
             this.lastIndex.now.day = nowTime
             this.updateArtice(this.lastIndex.now)
             this.updateArtice(this.lastIndex.after)
             await this.setLastArticeInfoStore() // 更新当前章节
-            await this.addNewArtice() // 更新目录
-            console.log('√ 更新完成！');
-            this.isOver = true
+            const result = await this.addNewArtice() // 更新目录
+            if (!result.code) {
+                console.log('× 更新失败');
+                return { code: true, msg: '更新失败' }
+            }
+            console.log('√ 更新完成！')
             return { code: true, data: this.lastIndex }
         } else {
             return { code: true, data: this.lastIndex }
@@ -81,6 +82,7 @@ const article = {
         } else {
             const maxLen = this.ArticleInfo.length
             const index = item.index < maxLen ? item.index + 1 : 0
+            item.index = index
             item.shortName = this.ArticleInfo[index].shortName
             item.lection = this.ArticleInfo[index].lection
             item.type = this.ArticleInfo[index].type
@@ -93,6 +95,7 @@ const article = {
         if (!this.isOver) {
             return { code: false, msg: '等待初始化完成' }
         }
+        this.isOver = false;
         const addQuery = this.lastIndex.now
         let result = null;
         try {
@@ -119,10 +122,12 @@ const article = {
                 this.computeKey[index] = `${addQuery.shortName}-${addQuery.chapter}`
                 await this.setLastArticeContentStore(articeContent, dirName)
                 await this.updateComputeInfo(this.computeKey)
+                this.isOver = true
                 return { code: true, msg: '更新章节成功' }
             }
         } catch (error) {
             console.log(error);
+            this.isOver = true
             return { code: false, msg: '更新章节失败' }
         }
 
@@ -139,7 +144,8 @@ const article = {
     },
     // 本地存储更新章节
     async setLastArticeInfoStore() {
-        await fs.writeFile(lastIndexPath, JSON.stringify(this.lastIndex))
+        const last = this.lastIndex
+        await fs.writeFile(lastIndexPath, JSON.stringify(last))
     },
     // 本地存储更新经文
     async setLastArticeContentStore(newArtice, dirName) {
