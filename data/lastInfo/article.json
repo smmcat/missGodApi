@@ -1,18 +1,1 @@
-{
-    "now": {
-        "shortName": "gn",
-        "index": 0,
-        "lection": "创世记",
-        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg",
-        "chapter": 0,
-        "day": "2024-04-28"
-    },
-    "after": {
-        "shortName": "gn",
-        "index": 1,
-        "pic": "https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg",
-        "lection": "创世记",
-        "chapter": 1,
-        "type": "old"
-    }
-}
+{"now":{"shortName":"gn","index":0,"lection":"创世记","pic":"https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg","chapter":2,"day":"2024-05-09"},"after":{"shortName":"gn","index":1,"pic":"https://www.zhouye24.com/wp-content/uploads/2021/06/pexels-elin-mellberg-5533971-scaled-480x300.jpg","lection":"创世记","chapter":3,"type":"old"}}

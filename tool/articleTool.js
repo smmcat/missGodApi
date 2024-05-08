@@ -18,7 +18,7 @@ const article = {
     upId: null,
     isOver: false,
     // 初始化文章信息
-    async initArticleSystem() {
+    async initArticleSystem(fn) {
         try {
             this.ArticleInfo = JSON.parse(await fs.readFile(staticArticlePath))
             this.lastIndex = JSON.parse(await fs.readFile(lastIndexPath))
@@ -40,6 +40,9 @@ const article = {
             this.ArticleList = temp
             this.isOver = true
             console.log('完成用户初始化加载');
+
+            // 完成后的回调函数
+            fn && fn(this.computeKey)
             return { code: true, msg: '完成用户初始化加载' }
         } catch (error) {
             console.log(error);

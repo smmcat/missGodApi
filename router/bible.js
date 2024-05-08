@@ -3,8 +3,11 @@ const router = express.Router()
 const fs = require('fs')
 const path = require('path')
 const articleSQL = require('../tool/articleTool')
+const reviewSQL = require('../tool/contentTool')
 
-articleSQL.initArticleSystem()
+articleSQL.initArticleSystem((computeKey) => {
+    reviewSQL.initContent(computeKey)
+})
 
 setInterval(() => {
     console.log('检查章节更新...');

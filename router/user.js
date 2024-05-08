@@ -6,6 +6,8 @@ const verify = require('../examine/index')
 const config = require('../system/serve')
 const jwt = require('jsonwebtoken'); // 用于生成 token
 const userSQL = require('../tool/tokenTool')
+const articleSQL = require('../tool/articleTool')
+const reviewSQL = require('../tool/contentTool')
 
 userSQL.initUserInfo()
 
@@ -74,6 +76,56 @@ router.get('/info', (req, res) => {
         }
     })
     res.send({ code: 200, data: info })
+})
+
+router.post('/setmsg', verify.examine['msg'], async (req, res) => {
+
+    // 导入验证函数
+    const errors = verify.validationResult(req);
+
+    // 判断是否参数完整
+    if (!errors.isEmpty()) {
+        return res.status(400).send({ code: 400, msg: errors.array().map(item => item.msg).join() });
+    }
+
+    const articleId = req.body.id
+    const content = req.body.content
+    const user = req.user.username
+
+    // 输入的 articleId 指向的文章不存在
+    if (!articleSQL.computeKey[articleId]) {
+        return res.status(400).send({ code: 400, msg: 'id 指向的文章内容不存在' });
+    }
+
+    // 写入数据
+    const result = await reviewSQL.setContentByAryicleId(user, content, articleId)
+
+    // 判断状态
+    if (!result.code) {
+        res.status(400).send({ code: 400, msg: result.msg })
+        return
+    }
+    // 返回结果
+    res.send({ code: 200, data: '写入完成' })
+})
+
+router.get('/getmsg', (req, res) => {
+    const id = Number(req.query.articleid)
+    console.log(id);
+    if (!id) {
+        res.status(400).send({ code: 400, msg: '缺少查询的文章id' });
+        return
+    }
+    const result = reviewSQL.getContentByArticleId(id)
+
+    // 判断状态
+    if (!result.code) {
+        res.status(400).send({ code: 400, msg: result.msg })
+        return
+    }
+
+    // 返回结果
+    res.send({ code: 200, data: result.data })
 })
 
 module.exports = router

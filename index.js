@@ -26,6 +26,7 @@ app.use((err, req, res, next) => {
         return res.send({ status: 401, message: '无效的 token' })
     }
     // 其他原因导致的错误
+    console.log(err);
     res.send({ status: 500, message: '未知错误' })
 })
 

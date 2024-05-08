@@ -30,6 +30,10 @@ const examine = {
             }
             return true;
         })
+    ],
+    'msg': [
+        body('id').notEmpty().isInt(),
+        body('content').isLength({ min: 10 }).withMessage('文本至少需要包含10个字符')
     ]
 }
 
