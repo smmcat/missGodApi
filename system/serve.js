@@ -3,7 +3,7 @@
 */
 
 const config = {
-    port: 80,
+    port: 82,
     secreKey: 'zhouyesizhu520'
 }
 

@@ -53,10 +53,16 @@ router.get('/list', async (req, res) => {
 // 获取文章详情
 router.get('/detail/:id', async (req, res) => {
     if (!articleSQL.isOver) {
-        return res.status(400).send({ code: 400, msg: '等待初始化完成' })
+        res.status(400).send({ code: 400, msg: '等待初始化完成' })
+        return
     }
 
     const id = req.params.id
+
+    if (!id) {
+        res.status(400).send({ code: 400, msg: '请输入id值' })
+        return
+    }
 
     const result = articleSQL.userSortIdFindArticeInfo(id)
     if (!result.code) {
@@ -64,6 +70,25 @@ router.get('/detail/:id', async (req, res) => {
     }
     console.log(id);
     res.status(200).send({ code: 200, data: result.data })
+})
+
+router.get('/getmsg', (req, res) => {
+    const id = Number(req.query.id)
+    console.log(id);
+    if (!id) {
+        res.status(400).send({ code: 400, msg: '缺少查询的文章id' });
+        return
+    }
+    const result = reviewSQL.getContentByArticleId(id)
+
+    // 判断状态
+    if (!result.code) {
+        res.status(400).send({ code: 400, msg: result.msg })
+        return
+    }
+
+    // 返回结果
+    res.send({ code: 200, data: result.data })
 })
 
 module.exports = router

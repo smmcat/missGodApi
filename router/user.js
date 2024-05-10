@@ -109,23 +109,4 @@ router.post('/setmsg', verify.examine['msg'], async (req, res) => {
     res.send({ code: 200, data: '写入完成' })
 })
 
-router.get('/getmsg', (req, res) => {
-    const id = Number(req.query.articleid)
-    console.log(id);
-    if (!id) {
-        res.status(400).send({ code: 400, msg: '缺少查询的文章id' });
-        return
-    }
-    const result = reviewSQL.getContentByArticleId(id)
-
-    // 判断状态
-    if (!result.code) {
-        res.status(400).send({ code: 400, msg: result.msg })
-        return
-    }
-
-    // 返回结果
-    res.send({ code: 200, data: result.data })
-})
-
 module.exports = router
