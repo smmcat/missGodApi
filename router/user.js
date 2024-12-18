@@ -34,7 +34,13 @@ router.post('/login', verify.examine['login'], (req, res) => {
     }
 
     const token = jwt.sign(temp, config.secreKey)
-    res.status(200).send({ code: 200, msg: '登录成功!', token: 'Bearer ' + token })
+    res.status(200).send({
+        code: 200, msg: '登录成功!', data: {
+            username: userSQL.UserList[username].username,
+            pic: userSQL.UserList[username].pic,
+            token: 'Bearer ' + token
+        }
+    })
 })
 
 router.post('/sigin', verify.examine['sigin'], async (req, res) => {
@@ -63,7 +69,13 @@ router.post('/sigin', verify.examine['sigin'], async (req, res) => {
     }
 
     const token = jwt.sign(temp, config.secreKey)
-    res.status(200).send({ code: 200, msg: '注册成功！', token: 'Bearer ' + token })
+    res.status(200).send({
+        code: 200, msg: '注册成功！', data: {
+            username: userSQL.UserList[username].username,
+            pic: userSQL.UserList[username].pic,
+            token: 'Bearer ' + token
+        }
+    })
 })
 
 router.get('/info', (req, res) => {

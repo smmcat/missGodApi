@@ -248,7 +248,11 @@
 {
     "code": 200,
     "msg": "注册成功！",
-    "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkI1MDAxMCIsInBhc3N3b3JkIjoiJDJhJDEwJDBydEJlNXJQNDBWcG84VU40STdSQS5PYU9TS0pFSTRPMnQydURhd213RGZTTm5aaHBuam1HIiwiaWF0IjoxNzE1MjQ2NDA0fQ.tc6EEr4ZCaMjUYk_JgLAwCfK3e8nJyCmIeWqAAtoJN8"
+    "data": {
+        "username":"B510100",
+        "pic":"",
+        "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkI1MDAxMCIsInBhc3N3b3JkIjoiJDJhJDEwJDBydEJlNXJQNDBWcG84VU40STdSQS5PYU9TS0pFSTRPMnQydURhd213RGZTTm5aaHBuam1HIiwiaWF0IjoxNzE1MjQ2NDA0fQ.tc6EEr4ZCaMjUYk_JgLAwCfK3e8nJyCmIeWqAAtoJN8"
+    }
 }
 ```
 
@@ -283,7 +287,11 @@
 {
     "code": 200,
     "msg": "登录成功!",
-    "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkI1MDAxMCIsInBhc3N3b3JkIjoiMTIzNDU2IiwiaWF0IjoxNzE1MjQ2NTI4fQ.BnYj_UMwBClIPqiKaUr6MBVA3aoT0dCvEJ7qibWoFls"
+    "data": {
+        "username":"B510100",
+        "pic":"",
+        "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkI1MDAxMCIsInBhc3N3b3JkIjoiJDJhJDEwJDBydEJlNXJQNDBWcG84VU40STdSQS5PYU9TS0pFSTRPMnQydURhd213RGZTTm5aaHBuam1HIiwiaWF0IjoxNzE1MjQ2NDA0fQ.tc6EEr4ZCaMjUYk_JgLAwCfK3e8nJyCmIeWqAAtoJN8"
+    }
 }
 ```
 
