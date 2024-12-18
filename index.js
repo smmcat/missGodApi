@@ -10,9 +10,9 @@ const expressJWT = require('express-jwt'); // 用于解析 token
 const app = express()
 
 // 依赖
-app.use('/user',expressJWT({ secret: config.secreKey }).unless({ path: ['/user/sigin','/user/login'] }))
+app.use('/user', expressJWT({ secret: config.secreKey }).unless({ path: ['/user/sigin', '/user/login'] }))
 app.use(cors());
-app.use(express.urlencoded({extended:false}))
+app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
 // 路由
@@ -23,7 +23,7 @@ app.use('/user', userRouter);
 app.use((err, req, res, next) => {
     if (err.name === 'UnauthorizedError') {
         // 错误是由 token 解析失败 或者 token失效 导致
-        return res.send({ status: 401, message: '无效的 token' })
+        return res.status(401).send({ status: 401, message: '无效的 token' })
     }
     // 其他原因导致的错误
     console.log(err);
