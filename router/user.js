@@ -36,8 +36,8 @@ router.post('/login', verify.examine['login'], (req, res) => {
     const token = jwt.sign(temp, config.secreKey)
     res.status(200).send({
         code: 200, msg: '登录成功!', data: {
-            username: userSQL.UserList[username].username,
-            pic: userSQL.UserList[username].pic,
+            username: userSQL.UserList[temp.username].username,
+            pic: userSQL.UserList[temp.username].pic,
             token: 'Bearer ' + token
         }
     })
