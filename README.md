@@ -40,7 +40,8 @@
 ```json
 {
     "code": 200,
-    "msg": {
+    "msg":"获取成功!",
+    "data": {
         "now": {
             "shortName": "gn",
             "index": 0,

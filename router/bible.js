@@ -27,7 +27,7 @@ router.get('/today', async (req, res) => {
     if (!result.code) {
         return res.status(400).send({ code: 400, msg: result.msg })
     }
-    res.status(200).send({ code: 200, msg: result.data })
+    res.status(200).send({ code: 200, msg: '获取成功!', data: result.data })
 })
 
 // 获取文章列表 - 截取末尾 10 个
